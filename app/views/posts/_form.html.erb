@@ -1,0 +1,18 @@
+<%= form_with model: @post, local: true do |form| %>
+<p>
+  <%=form.label :title %>
+  <%= form.trix_editor :title,  required: true, autofocus: true%>
+</p>
+  <p>
+    <%=form.label :description %><br>
+    <%= form.trix_editor :description,  required: true, autofocus: true%>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+
+<% end %>
+
+
+
+

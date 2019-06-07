@@ -1,0 +1,13 @@
+<head>
+<meta charset="utf-8">
+<h3>Chapter <%= Chapter.joins(:post).count(:post_id) %></h3>
+</head>
+<p>
+    <%= chapter.body.html_safe %>
+</p>
+
+<button type="button" class="btn btn-danger">
+  <%= link_to "Destroy", [chapter.post,chapter],
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %>
+</button>

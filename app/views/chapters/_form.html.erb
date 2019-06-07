@@ -1,0 +1,11 @@
+<br><br><h4>Add a chapter:</h4>
+<%= form_with(model: [ @post, @post.chapters.build ], local: true) do |form| %>
+  <p>
+    <%= form.label :body %><br>
+    <%= form.trix_editor :body, required:true, autofocus:true %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+
+<%end %>
