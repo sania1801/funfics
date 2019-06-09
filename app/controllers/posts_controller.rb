@@ -1,7 +1,8 @@
 class PostsController < ApplicationController
-  # before_action :load_entities
+  before_action :authenticate_user!, except: [:index, :show]
   def show
    @post = Post.find(params[:id])
+   # @chapter = @post.chapters.build
     # @post.user = current_user
    # @comment = PostMessage.new post: @post
    # @comments = @post.comments.includes(:user)
@@ -16,11 +17,9 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
   end
   def create
-    # respond_with Post.create(post_params.merge(user_id: current_user.id))
     @post = current_user.posts.build(post_params)
-    # @post.user = current_user
       if @post.save
-        # flash[:success] = "Funfic #{@post.name} was created successfully"
+        flash[:success] = "Funfic #{@post.title} was created successfully"
         redirect_to @post
       else
         render 'new'

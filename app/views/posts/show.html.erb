@@ -1,10 +1,9 @@
 <p>
-  <strong>Title:</strong>
-  <%= raw @post.title %>
+  <strong><div align="center"><h1><%= raw @post.title %></h1></div></strong>
 </p>
 <br>
 <p>
-  <strong>Description</strong>
+  <a><strong>Description:</strong></a>
   <%= raw @post.description%>
 </p>
 <br>
@@ -14,7 +13,7 @@
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
 <br>
-<%if(user_signed_in?) %>
+<%if(user_signed_in? && current_user.id = @post.user_id) %>
 <span><%=link_to 'Edit', edit_post_path(@post) %></span>
 <td> <%= link_to 'Destroy', post_path(@post), method: :delete, data: {confirm:'Are you sure?'}%></td>
   <%else %>
