@@ -1,8 +1,11 @@
 <% @post.each do |post| %>
   <tr>
-    <p><%=  post.title.html_safe %></p>
-    <p><%=  post.description.html_safe %></p>
+    <p><%=  post.title.html_safe%></p>
+    <a><%=  post.description.html_safe %></a>
     <p><%= link_to 'Show', post_path(post) %></p>
+    <%= render 'genres/show' %>
+
     <!--     <td> <%#= link_to 'Destroy', post_path(post), method: :delete, data: {confirm:'Are you sure?'}%></td>-->
   </tr>
 <% end %>
+<%= will_paginate(@post) %>

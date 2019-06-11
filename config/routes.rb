@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  resources :genres
-  get 'users/show'
-  # get '/chapter/edit' => 'chapter#edit'
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+  resources :genres
+  get 'users/show'
   devise_for :users
   resources :users
   resources :posts do
@@ -11,6 +10,5 @@ Rails.application.routes.draw do
   resources :comments
   end
   root to: 'posts#index'
-  mount ActionCable.server => '/cable'
 end
 

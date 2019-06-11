@@ -8,7 +8,6 @@ class CommentsController < ApplicationController
     else
       render 'comments/form'
     end
-    PostChannel.broadcast_to @post, @comment
   end
 
   private

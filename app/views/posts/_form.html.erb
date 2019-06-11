@@ -7,10 +7,9 @@
     <%=form.label :description %><br>
     <%= form.trix_editor :description,  required: true, autofocus: true%>
   </p>
-<!--  <p>-->
-<!--    <strong>Genre:</strong>-->
-    <%#= @post.genre_id %>
-<!--  </p>-->
+  <p>
+  <%= select_tag(:genre_id, options_for_select(@genre), :prompt => "Select one!") %>
+  </p>
   <p>
     <%= form.submit %>
   </p>
