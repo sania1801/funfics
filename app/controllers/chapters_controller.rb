@@ -39,6 +39,6 @@ class ChaptersController < ApplicationController
     @chapter = @post.chapters.find(params[:id])
   end
   def chapter_params
-    params.require(:chapter).permit(:body)
+    params.require(:chapter).permit(:body, :image)
   end
 end
