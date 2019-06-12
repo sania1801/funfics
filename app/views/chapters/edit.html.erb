@@ -4,6 +4,10 @@
     <%= form.label :body %><br>
     <%= form.trix_editor :body, required:true, autofocus:true %>
   </p>
+
+  <p>
+    <%= form.file_field :image %><br>
+  </p>
   <p>
     <%= form.submit %>
   </p>

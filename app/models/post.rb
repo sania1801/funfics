@@ -9,7 +9,6 @@
     # search_scope :search do
     #   attributes :title, :description
     #   attributes comment: 'comments.message'
-    #   attributes user: 'user.username'
     #   attributes genre: 'genre.name'
     #   attributes chapter: 'chapters.body'
     #

@@ -13,5 +13,10 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery3
+//= require jquery_ujs
 //= require popper
 //= require trix
+//= require jquery.purr
+//= require best_in_place
+//= require rails-ujs
+

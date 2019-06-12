@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_11_202754) do
+ActiveRecord::Schema.define(version: 2019_06_12_201655) do
 
   create_table "active_admin_comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "namespace"
@@ -91,6 +91,9 @@ ActiveRecord::Schema.define(version: 2019_06_11_202754) do
     t.datetime "updated_at", null: false
     t.string "username"
     t.boolean "admin"
+    t.string "gender"
+    t.string "about"
+    t.string "avatar"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
