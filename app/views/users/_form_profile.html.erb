@@ -8,9 +8,12 @@
             <div class="d-flex justify-content-start">
               <div class="image-container">
                 <img src="http://placehold.it/150x150" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
+                <%= image_tag @user.avatar.url(:thumb), class:'image-show' if @user.avatar?%>
+
                 <div class="middle">
-<!--                  <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />-->
-<!--                  <input type="file" style="display: none;" id="profilePicture" name="file" />-->
+                  <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />
+
+                  <input type="file" style="display: none;" id="profilePicture" name="file" />
 
                 </div>
               </div>
@@ -30,7 +33,8 @@
                   <a class="nav-link active" id="basicInfo-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basicInfo" aria-selected="true">Basic Info</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="connectedServices-tab" data-toggle="tab" href="#connectedServices" role="tab" aria-controls="connectedServices" aria-selected="false">Connected Services</a>
+                  <a class="nav-link" id="connectedServices-tab" data-toggle="tab" href="#connectedServices" role="tab" aria-controls="connectedServices" aria-selected="false">My Post</a>
+                  <%= link_to "My Post",  %>
                 </li>
               </ul>
               <div class="tab-content ml-1" id="myTabContent">
