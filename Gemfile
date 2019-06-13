@@ -34,7 +34,7 @@ gem 'jquery-rails'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'best_in_place', '~> 3.0.1'
-gem 'simple_form'
+# gem 'simple_form'
 gem 'search_cop'
 gem 'best_in_place', '~> 3.0.1'
 # Use Redis adapter to run Action Cable in production
