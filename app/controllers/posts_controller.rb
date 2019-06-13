@@ -11,12 +11,13 @@ class PostsController < ApplicationController
     @genre = Genre.all.map{|g|[g.name,g.id]}
   end
   def edit
+    @genre = Genre.all.map{|g|[g.name,g.id]}
   end
   def create
     @post = current_user.posts.build(post_params)
     @post.genre_id = params[:genre_id]
       if @post.save
-        flash[:success] = "Funfic #{@post.title} was created successfully"
+        # flash[:success] = "Funfic #{@post.title} was created successfully"
         redirect_to @post
       else
         render 'new'
@@ -41,6 +42,6 @@ private
     @post = Post.find(params[:id])
   end
   def post_params
-    params.require(:post).permit(:title,:username, :description)
+    params.require(:post).permit(:title,:username, :description, :genre_id)
   end
 end
