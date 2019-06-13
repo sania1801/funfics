@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+
   def create
     @post = Post.find(params[:post_id])
     @comment = @post.comments.build(comment_params)
@@ -12,7 +13,8 @@ class CommentsController < ApplicationController
     end
   end
   def show
-    @comment = @post.comments(comment_params)
+    # @comment = @post.comments(comment_params)
+    # @comments = @post.comments.pagenate(page: params[:page]||1,per_page: 20)
   end
   private
 
