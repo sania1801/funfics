@@ -45,8 +45,8 @@ a.button {
 .dropbtn {
     background-color: #373B44;
     color: white;
-    padding: 8px;
-    font-size: 16px;
+    padding: 6px;
+    font-size: 18px;
     border: none;
 }
 
@@ -62,14 +62,15 @@ a.button {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 40px;
-    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 8px 16px;
+    font-size: 18px;
+    padding: 8px 19px;
     text-decoration: none;
     display: block;
 }
