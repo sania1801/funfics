@@ -1,43 +1,50 @@
 <!DOCTYPE html>
-<html >
+<html xmlns="http://www.w3.org/1999/html">
+<!--<script src="search.js"></script>-->
   <head>
     <title> Funfick</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
-  <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" > Funfic</a>
+  <header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" style="color:white" > Funfic</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <span class="nav-link"><%=link_to "Home",posts_path %> <span class="sr-only">(current)</span></span>
-        </li>
+
         <%if user_signed_in? %>
-<!--          <li class="nav-item active">-->
-<!--            <span class="nav-link"> <%#=link_to "Profile", profile_user_path(current_user.id) %></span>-->
-<!--          </li>-->
-                  <li class="nav-item active">
-                    <span class="nav-link"> <%=link_to "Log out", destroy_user_session_path, method: :delete %></span>
-                  </li>
+          <div class="dropdown">
+            <button class="dropbtn"><%= current_user.username %></button>
+            <div class="dropdown-content">
+              <%=link_to "Profile", destroy_user_session_path, method: :delete %>
+              <%=link_to "My post", destroy_user_session_path, method: :delete %>
+              <%=link_to "Log out", destroy_user_session_path, method: :delete %>
+            </div>
+          </div>
           <li class="nav-item active">
-            <span class="nav-link"><%=link_to "New post",new_post_path %></span>
+            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "New post",new_post_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
           </li>
         <%else %>
           <li class="nav-item active">
-            <span class="nav-link" > <%=link_to "Sign up",new_user_registration_path %></span>
+
+            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Sign up",new_user_registration_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
           </li>
           <li class="nav-item active">
-            <span class="nav-link"><%=link_to "Sign in",new_user_session_path %></span>
+            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Sign in",new_user_session_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
           </li>
         <%end %>
+        <li class="nav-item active">
+          <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Funfics",posts_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
+        </li>
+
       </ul>
       <div class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text"  id="main_search_field">
@@ -46,10 +53,14 @@
       <%# render 'search/form' %>
     </div>
   </nav>
+  </header>
+  <body>
+
+  </body>
   <div class="container">
     <%= yield %>
   </div>
 
-  </body>
+
 
 </html>

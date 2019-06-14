@@ -37,6 +37,7 @@ gem 'best_in_place', '~> 3.0.1'
 # gem 'simple_form'
 gem 'search_cop'
 gem 'best_in_place', '~> 3.0.1'
+gem 'acts-as-taggable-on'
 gem 'pry'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

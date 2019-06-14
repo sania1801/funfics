@@ -2,6 +2,9 @@
   <tr>
     <p><%= post.title.html_safe%></p>
     <a><%=  post.description.html_safe %></a>
+    <p>
+      Tags: <%= post.tag_list.map {|t|link_to t, tag_path(t)}.join(', ').html_safe  %>
+    </p>
     <p><%= link_to 'Show', post_path(post) %></p>
     <%= render 'genres/show' %>
 

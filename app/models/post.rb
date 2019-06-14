@@ -1,5 +1,8 @@
   class Post < ApplicationRecord
+    # include SearchCop
     self.per_page = 10
+    acts_as_taggable # Alias for acts_as_taggable_on :tags
+    acts_as_taggable_on
   has_many :comments, dependent: :destroy
   has_many :chapters, dependent: :destroy
   belongs_to :genre

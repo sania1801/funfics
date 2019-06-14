@@ -4,7 +4,11 @@ class PostsController < ApplicationController
   def show
   end
   def index
-    @post = Post.paginate(page: params[:page])
+    if params[:tag]
+    @post = Post.paginate(page: params[:page]).tagged_with(params[:tag])
+    else
+      @post = Post.paginate(page: params[:page])
+    end
   end
   def new
     @post = current_user.posts.build
@@ -42,6 +46,6 @@ private
     @post = Post.eager_load(:comments,:user,:chapters,:genre).find(params[:id])
   end
   def post_params
-    params.require(:post).permit(:title,:username, :description, :genre_id)
+    params.require(:post).permit(:title,:username, :description, :genre_id, :tag_list)
   end
 end
