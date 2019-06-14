@@ -39,7 +39,7 @@ class PostsController < ApplicationController
 
 private
   def find_post
-    @post = Post.find(params[:id])
+    @post = Post.eager_load(:comments,:user,:chapters,:genre).find(params[:id])
   end
   def post_params
     params.require(:post).permit(:title,:username, :description, :genre_id)

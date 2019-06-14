@@ -8,10 +8,10 @@
 <%= @post.genre.name%>
 
 <br>
-<%= render @post.chapters %>
+<%= render 'chapters/chapter' %>
 <%= render 'chapters/form' %>
 <h5>Comments:</h5>
-<%= render @post.comments %>
+<%= render "comments/comment" %>
 <%= render 'comments/form' %>
 <br>
 <% if current_user &&(current_user.id == @post.user_id) %>

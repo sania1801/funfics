@@ -7,7 +7,7 @@
 
     received: (data) ->
     $('#comments').append data['comment']
-#    alert data['comment']
+
 # Called when there's incoming data on the websocket for this channel
 
     speak: (comment) ->
