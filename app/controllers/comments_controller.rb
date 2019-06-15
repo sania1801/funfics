@@ -6,7 +6,7 @@ class CommentsController < ApplicationController
 
     if @comment.save
       redirect_to post_path(@post)
-      PostChannel.broadcast_to @post, @comment
+      PostChannel.broadcast_to(@post, @comment)
     else
       render 'comments/form'
     end

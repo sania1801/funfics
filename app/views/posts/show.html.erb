@@ -2,15 +2,19 @@
 <p>
   <strong><div align="center"><h1><%= @post.title.html_safe %></h1></div></strong>
 </p>
+
 <a><strong>Description:</strong></a>
 <%= @post.description.html_safe%>
 <a><strong>Genre:</strong></a>
 <%= @post.genre.name%>
+
 <br>
 <%= render 'chapters/chapter' %>
 <%= render 'chapters/form' %>
 <h5>Comments:</h5>
-<%= render "comments/comment" %>
+<div id="comments">
+<%= render @post.comments %>
+</div>
 <%= render 'comments/form' %>
 <br>
 <% if current_user &&(current_user.id == @post.user_id) %>

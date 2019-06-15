@@ -10,9 +10,9 @@
               <div class="image-container">
                 <% if @user.avatar? %>
                 <%= render 'form_avatar' %>
-                <%= render 'form_change_avatar' %>
                   <% else %>
                 <img src="http://placehold.it/150x150" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
+                  <%= render 'form_change_avatar' %>
                   <%end %>
               </div>
               <div class="userData ml-3">
