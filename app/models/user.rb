@@ -1,4 +1,14 @@
 class User < ApplicationRecord
+  def account_active?
+    blocked_at.nil?
+  end
+  def active_for_authentication?
+    super && active?
+  end
+  def inactive_message
+     active? ? super : :locked
+  end
+
   require 'carrierwave'
   require 'carrierwave/orm/activerecord'
   mount_uploader :avatar, ImageUploader
