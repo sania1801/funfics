@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
-<!--<script src="search.js"></script>-->
   <head>
     <title> Funfick</title>
     <%= csrf_meta_tags %>
@@ -9,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'application'%>
   </head>
   <header>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -24,7 +23,7 @@
           <div class="dropdown">
             <button class="dropbtn"><%= current_user.username %></button>
             <div class="dropdown-content">
-              <%=link_to "Profile", destroy_user_session_path, method: :delete %>
+              <%=link_to "Profile", user_path%>
               <%=link_to "My post", user_posts_index_path %>
               <%=link_to "Log out", destroy_user_session_path, method: :delete %>
             </div>
@@ -46,11 +45,9 @@
         </li>
 
       </ul>
-      <div class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text"  id="main_search_field">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="post_search" >Search</button>
-      </div>
-      <%# render 'search/form' %>
+
+      <%= render partial: 'search/form' %>
+
     </div>
   </nav>
   </header>

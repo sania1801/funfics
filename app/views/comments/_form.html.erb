@@ -1,4 +1,4 @@
-<% if current_user %>
+<% if user_signed_in? %>
   <h2>Add a comment:</h2>
   <div id="comment_form">
 <%= form_with(model: [ @post, @post.comments.build ], local: true) do |form| %>
