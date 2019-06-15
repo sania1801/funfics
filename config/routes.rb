@@ -8,8 +8,9 @@ Rails.application.routes.draw do
   resources :user_profile
   resources :genres
   resources :posts do
-  resources :chapters
-  resources :comments
+    resources :likes
+    resources :chapters
+    resources :comments
   end
   root to: 'posts#index'
   mount ActionCable.server => '/cable'
