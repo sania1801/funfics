@@ -1,0 +1,83 @@
+<%= javascript_include_tag('user_profile') %>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+
+        <div class="card-body">
+          <div class="card-title mb-4">
+            <div class="d-flex justify-content-start">
+              <div class="image-container">
+                <img src="http://placehold.it/150x150" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
+                <div class="middle">
+                  <!--                  <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />-->
+                  <!--                  <input type="file" style="display: none;" id="profilePicture" name="file" />-->
+
+                </div>
+              </div>
+              <div class="userData ml-3">
+                <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"> <%= best_in_place @user, :username,:as => :input%></h2>
+              </div>
+              <div class="ml-auto">
+                <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />
+              </div>
+            </div>
+          </div>
+                  <div class="row">
+                    <div class="col-sm-3 col-md-2 col-5">
+                      <label style="font-weight:bold;">Name:</label>
+                    </div>
+                    <div class="col-md-8 col-6">
+                      <%= best_in_place @user, :username,:as => :input%>
+                    </div>
+                  </div>
+                  <hr />
+
+                  <div class="row">
+                    <div class="col-sm-3 col-md-2 col-5">
+                      <label style="font-weight:bold;">Registration Date</label>
+                    </div>
+                    <div class="col-md-8 col-6">
+                      <%= @user.created_at %>
+                    </div>
+                  </div>
+                  <hr />
+
+
+                  <div class="row">
+                    <div class="col-sm-3 col-md-2 col-5">
+                      <label style="font-weight:bold;">Email</label>
+                    </div>
+                    <div class="col-md-8 col-6">
+                      <%= best_in_place @user, :email,:as => :input%>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="row">
+                    <div class="col-sm-3 col-md-2 col-5">
+                      <label style="font-weight:bold;">Gender</label>
+                    </div>
+                    <div class="col-md-8 col-6">
+                      <%= best_in_place @user, :gender,:as => :select,collection: [['Male','Male'],['Female','Female']]%>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="row">
+                    <div class="col-sm-3 col-md-2 col-5">
+                      <label style="font-weight:bold;">About you</label>
+                    </div>
+                    <div class="col-md-8 col-6">
+                      <%= best_in_place @user, :about,:as => :textarea%>
+
+                    </div>
+                  </div>
+                  <hr />
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
