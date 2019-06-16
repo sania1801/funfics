@@ -9,10 +9,9 @@
     <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application'%>
-    <%#= action_cable_meta_tag %>
   </head>
-  <header>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <header >
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" style="color:white" > Funfic</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,8 +28,8 @@
               <%=link_to "Log out", destroy_user_session_path, method: :delete %>
             </div>
           </div>
-          <li class="nav-item active">
-            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "New post",new_post_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
+          <li class="nav-item active" >
+            <button class="btn btn-outline my-2 my-sm-0"   ><%=link_to "New post",new_post_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
           </li>
         <%else %>
           <li class="nav-item active">
@@ -44,20 +43,26 @@
         <li class="nav-item active">
           <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Funfics",posts_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
         </li>
+        <%= javascript_include_tag 'search' %>
+
+
 
       </ul>
-
-      <%= render partial: 'search/form' %>
+      <form class="form-inline mt-2 mt-md-0">
+        <label for="search_post"></label><input class="form-control mr-sm-2" type="text" id="search_post">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"  id="btn_post_search">Search</button>
+      </form>
+      <%#= render partial: 'search/form' %>
 
     </div>
   </nav>
   </header>
   <body>
-
-  </body>
   <div class="container">
     <%= yield %>
   </div>
+
+  </body>
 
 
 

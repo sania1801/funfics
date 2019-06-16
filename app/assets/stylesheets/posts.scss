@@ -2,3 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap";
+body {background-color: #efe5de;}
+#cracker1{
+  color: #000;
+}
+
+#cracker2{
+  color: #000;
+}
+
+#cracker3{
+  color: #000;
+}
+
+#cracker1:active{
+  color: #fff;
+}
+
+#cracker2:active{
+  color: #fff;
+}
+
+#cracker3:active{
+  color: #fff;
+}

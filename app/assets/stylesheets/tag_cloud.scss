@@ -1,5 +1,5 @@
 #tag_cloud{
-  width: 1200px;
+  width: 200px;
   line-height: 1.6em;
   .s {font-size: 0.8em;}
   .m {font-size: 1.2em;}
@@ -7,4 +7,59 @@
 }
 #flex {
   display: flex;
+}
+#tag_cloud {
+  width: 500px;
+  height: 450px;
+  position: relative;
+  font-size: 20px;
+  color: #333;
+  margin: 10px auto 0;
+  //text-align: center;
+}
+#tag_cloud a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #333;
+  font-family: Arial;
+  text-decoration: none;
+  margin: 0 10px 15px 0;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+  padding: 1px 5px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+  #tag_cloud a.tagc1 {
+  background: #666;
+  color: #fff;
+}
+  #tag_cloud a.tagc2 {
+  background: #F16E50;
+  color: #fff;
+}
+
+  #tag_cloud a.tagc3 {
+  background: #006633;
+  color: #fff;
+}
+#tag_cloud a.tagc4 {
+  background: red;
+  color: #fff;
+}
+#tag_cloud a.tagc5 {
+  background: blue;
+  color: #fff;
+}
+#tag_cloud a.tagc6 {
+  background: purple;
+  color: #fff;
+}
+
+#tag_cloud a:hover {
+  color: #fff;
+  background: #0099ff;
 }

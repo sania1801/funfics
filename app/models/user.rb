@@ -9,8 +9,8 @@ class User < ApplicationRecord
      active? ? super : :locked
   end
 
-  require 'carrierwave'
-  require 'carrierwave/orm/activerecord'
+  # require 'carrierwave'
+  # require 'carrierwave/orm/activerecord'
   mount_uploader :avatar, ImageUploader
 
   devise :database_authenticatable, :registerable,

@@ -27,6 +27,6 @@ class LikesController < ApplicationController
         params[:post_id]).exists?
   end
   def find_post
-    @post = Post.find(params[:post_id])
+    @post = Post.eager_load(:likes).find(params[:post_id])
   end
 end

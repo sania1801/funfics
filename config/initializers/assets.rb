@@ -10,6 +10,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += %w( profile_user.js )
 Rails.application.config.assets.precompile += %w( user_profile.js )
 Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w( tag_cloud.js )
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.

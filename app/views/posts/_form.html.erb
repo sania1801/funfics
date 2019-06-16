@@ -1,23 +1,39 @@
+<% if @post.errors.any? %>
+  <div class="alert alert-danger">
+    <h5><%= t('common.errors') %></h5>
+    <ul>
+      <% @post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+<% if current_user.id ==@post.user.id %>
 <%= form_with model: @post, local: true do |form| %>
-<p>
-  <%=form.label :title %>
-  <%= form.trix_editor :title,  required: true, autofocus: true%>
-</p>
   <p>
-    <%=form.label :description %><br>
-    <%= form.trix_editor :description,  required: true, autofocus: true%>
+    <%= form.file_field :place %>
   </p>
   <p>
-    <%=form.label :tag_list %><br>
-    <%= form.text_area :tag_list%>
+    <%= form.label :title %>
+    <%= form.trix_editor :title, required: true, autofocus: true %>
   </p>
   <p>
-  <%= select_tag(:genre_id, options_for_select(@genre), :prompt => "Select one!") %>
+    <%= form.label :description %><br>
+    <%= form.trix_editor :description, required: true, autofocus: true %>
+  </p>
+  <p>
+    <%= form.label :tag_list %><br>
+    <%= form.text_area :tag_list %>
+  </p>
+  <p>
+    <%= select_tag(:genre_id, options_for_select(@genre)) %>
   </p>
   <p>
     <%= form.submit %>
   </p>
-
+<% end %>
+<%else %>
+  <%= puts("Permission are denied") %>
 <% end %>
 
 
