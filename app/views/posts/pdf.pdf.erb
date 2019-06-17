@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<div class="album py-5 bg-#efe5de">
+  <div class="container">
+    <div class="row">
+      <% @posts.each do |post| %>
+        <style>
+          .col-md-4{ margin-bottom: 15px;}
+        </style>
+        <div class="col-md-4 ">
+          <div class="card  shadow-sm">
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Title:<%= post.title.html_safe %></p>
+              <p class="card-text">Description:<%= post.description.html_safe %></p>
+              <% post.chapters.each_with_index do |chapter,index| %>
+                <h3>Chapter <%= index+1 %></h3>
+                <p class="card-text">Chapters:<%= chapter.body.html_safe %></p>
+                <%end %>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--        </div>-->
+      <% end %>
+    </div>
+  </div>
+</div>
+<%# @posts.each do |post| %>
+<!--        <p class="card-text"><%#= post.title.html_safe %></p>-->
+<!--        <p class="card-text"><%#= post.description.html_safe %></p>-->
+<!--        <p class="text-break"><%#= post.chapters.body.html_safe %></p>-->
+  <%# end %>
+</body>
+</html>

@@ -10,10 +10,15 @@ class PostsController < ApplicationController
     else
       @posts = @posts.paginate(page: params[:page])
     end
+    respond_to do |format|
+      format.html
+      format.json
+      format.pdf {render template: 'posts/pdf', pdf:'pdf'}
+    end
   end
   def new
-    @post = current_user.posts.build
     @genre = Genre.all.map{|g|[g.name,g.id]}
+    @post = current_user.posts.build
   end
   def get_posts
     search =  params[:val]

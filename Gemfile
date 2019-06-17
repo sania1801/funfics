@@ -35,9 +35,11 @@ gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resour
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'best_in_place', '~> 3.0.1'
 # gem 'simple_form'
+gem 'wicked_pdf'
 gem 'search_cop'
 gem 'acts-as-taggable-on'
 gem 'pry'
+gem 'wkhtmltopdf-binary'
 gem 'will_paginate-bootstrap'
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.0'

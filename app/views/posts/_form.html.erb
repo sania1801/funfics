@@ -22,18 +22,18 @@
     <%= form.trix_editor :description, required: true, autofocus: true %>
   </p>
   <p>
-    <%= form.label :tag_list %><br>
+    <%= form.label :tag_list%><br>
     <%= form.text_area :tag_list %>
   </p>
-  <p>
-    <%#= select_tag(:genre_id, options_for_select(@genre)) %>
-  </p>
+    <p>
+      <%= select_tag(:genre_id, options_for_select(@genre)) %>
+    </p>
   <p>
     <%= form.submit %>
   </p>
 <% end %>
 <%else %>
-  <%= puts("Permission are denied") %>
+  <a href=<%= posts_path %>></a>
 <% end %>
 
 
