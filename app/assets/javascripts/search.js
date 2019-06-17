@@ -1,10 +1,9 @@
 function searchPosts(){
     var value = $('#post_search').val();
     console.log(value)
-    var Nurl = document.location.href +'?val=' + value;
-    document.location.href=Nurl;
-    $(this).attr("href",Nurl);
-    console.log(Nurl);
+     document.location.href='/posts?val='+value;
+    console.log(document.location.href);
+
 }
 $(document).ready(function() {
 //     console.log('cho?');
