@@ -1,4 +1,4 @@
-
+<%#= javascript_include_tag '/channels/post' %>
     <div class="comment_content" id="comments">
     <span><%= comment.user.username %></span> <span class="time-comment"> <%=time_ago_in_words(comment.created_at) %> ago</span>
     <div><%= comment.message %></div>

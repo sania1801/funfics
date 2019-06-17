@@ -17,6 +17,7 @@
 //= require trix
 //= require jquery.purr
 //= require best_in_place
+//= require cable
 //= require rails-ujs
 
 

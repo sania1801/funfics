@@ -6,7 +6,7 @@ class PostChannel < ApplicationCable::Channel
     # Any cleanup needed when channel is unsubscribed
   end
   def receive(data)
-    ActionCable.server.broadcast("post_#{params[:post]}", data)
+    ActionCable.server.broadcast("post#{params[:post]}", data)
   end
   def speak(data)
     Comment.create! message: data['comment'], user_id: data['user'], post_id: data['post']

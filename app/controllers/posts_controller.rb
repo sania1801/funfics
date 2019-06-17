@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :authenticate_user!, except: [:index, :show]
+  # before_action :authenticate_user!, except: [:show]
   before_action :find_post, only: [:show, :edit, :update, :destroy]
   def show
   end
@@ -8,7 +8,7 @@ class PostsController < ApplicationController
     if params[:tag]
     @posts = Post.paginate(page: params[:page]).tagged_with(params[:tag])
     else
-      @posts = Post.paginate(page: params[:page])
+      @posts = @posts.paginate(page: params[:page])
     end
   end
   def new
@@ -17,13 +17,11 @@ class PostsController < ApplicationController
   end
   def get_posts
     search =  params[:val]
-    # binding.pry
     if search.present?
       @posts = Post.search(search)
     else
       @posts = Post.all
     end
-    # binding.pry
   end
 
     def edit

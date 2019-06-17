@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
+
   <head>
     <title> Funfick</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application'%>
@@ -44,12 +43,9 @@
           <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Funfics",posts_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
         </li>
         <%= javascript_include_tag 'search' %>
-
-
-
       </ul>
       <form class="form-inline mt-2 mt-md-0">
-        <label for="search_post"></label><input class="form-control mr-sm-2" type="text" id="search_post">
+        <label for="search_post"></label><input class="form-control mr-sm-2" type="text" id="post_search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit"  id="btn_post_search">Search</button>
       </form>
       <%#= render partial: 'search/form' %>

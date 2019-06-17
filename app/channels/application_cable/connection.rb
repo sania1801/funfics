@@ -1,10 +1,7 @@
 module ApplicationCable
     class Connection < ActionCable::Connection::Base
-      # binding.pry
       identified_by :current_user
-
       def connect
-        # binding.pry
         self.current_user = find_verified_user
         logger.add_tags 'ActionCable', current_user.email
       end

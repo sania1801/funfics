@@ -10,7 +10,7 @@
 <br>
 <%= render 'chapters/chapter' %>
 <%= render 'chapters/form' %>
-<%= render 'likes/form' %>
+<%= render 'likes/form' %> <small class="text-muted"><%= @post.likes.count %> <%= (@post.likes.count) == 1 ? 'Like' : 'Likes' %></small>
 <h5>Comments:</h5>
 <div id="comments">
 <%= render @post.comments %>

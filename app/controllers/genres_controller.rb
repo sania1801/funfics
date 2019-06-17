@@ -1,6 +1,5 @@
 class GenresController < InheritedResources::Base
-  @genres = Genre.all
-                # .map{|c| [ c.name, c.id ] }
+  @genres = Genre.all.map{|g| [ g.name, g.id ] }
   def show
   end
   private

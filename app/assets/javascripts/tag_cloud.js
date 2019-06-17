@@ -16,8 +16,8 @@ window.onload=function ()
 {
     var i=0;
     var oTag=null;
-    oDiv=document.getElementById('tag_cloud');
-    aA=oDiv.getElementsByTagName('a');
+        oDiv = document.getElementById('tag_cloud');
+        aA = oDiv.getElementsByTagName('a');
     for(i=0;i<aA.length;i++)
     {
         oTag={};
@@ -144,6 +144,7 @@ function doPosition()
         aAs.opacity = mcList[i].alpha;
     }
 }
+
 function sineCosine( a, b, c)
 {
     sa = Math.sin(a * dtr);
