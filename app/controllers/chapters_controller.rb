@@ -42,3 +42,4 @@ class ChaptersController < ApplicationController
     params.require(:chapter).permit(:body, :image)
   end
 end
+

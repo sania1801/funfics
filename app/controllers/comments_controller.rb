@@ -11,9 +11,11 @@ class CommentsController < ApplicationController
       render 'comments/form'
     end
   end
+
   def show
     @comment = @post.comments(comment_params)
   end
+
   private
 
   def comment_params

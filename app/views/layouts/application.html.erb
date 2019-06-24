@@ -22,25 +22,25 @@
           <div class="dropdown">
             <button class="dropbtn"><%= current_user.username %></button>
             <div class="dropdown-content">
-              <%=link_to "Profile", user_path%>
-              <%=link_to "My post", user_posts_index_path %>
-              <%=link_to "Log out", destroy_user_session_path, method: :delete %>
+              <%=button_to "Profile", user_path, :method => 'get'%>
+              <%=button_to "My post", user_posts_index_path, :method => 'get' %>
+              <%=button_to "Log out", destroy_user_session_path, method: :delete%>
             </div>
           </div>
           <li class="nav-item active" >
-            <button class="btn btn-outline my-2 my-sm-0"   ><%=link_to "New post",new_post_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
+            <button class="btn btn-outline my-2 my-sm-0"   ><%=button_to "New post",new_post_path,:method => "get"  %></button>
           </li>
         <%else %>
           <li class="nav-item active">
 
-            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Sign up",new_user_registration_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
+            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=button_to "Sign up",new_user_registration_path,:method => "get" %></button>
           </li>
           <li class="nav-item active">
-            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Sign in",new_user_session_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
+            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=button_to "Sign in",new_user_session_path,:method => "get" %></button>
           </li>
         <%end %>
         <li class="nav-item active">
-          <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=link_to "Funfics",posts_path,{:style=>'color:#FFFFFF;', :class => "css_class"} %></button>
+          <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=button_to "Funfics",posts_path, :method => "get" %></button>
         </li>
 
       </ul>

@@ -159,7 +159,7 @@
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.4, RVM: ruby-2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wicked_pdf (v1.4.0, RVM: ruby-2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.1.7, RVM: ruby-2.4.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="will_paginate-bootstrap (v1.0.2, RVM: ruby-2.4.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate-bootstrap4 (v0.2.2, RVM: ruby-2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wkhtmltopdf-binary (v0.12.4, RVM: ruby-2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, RVM: ruby-2.4.2) [gem]" level="application" />
   </component>
