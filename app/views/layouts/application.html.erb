@@ -28,19 +28,19 @@
             </div>
           </div>
           <li class="nav-item active" >
-            <button class="btn btn-outline my-2 my-sm-0"   ><%=button_to "New post",new_post_path,:method => "get"  %></button>
+            <button class="btn btn-outline-danger my-2 my-sm-0"  id="btn_new_post">New post</button>
           </li>
         <%else %>
           <li class="nav-item active">
 
-            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=button_to "Sign up",new_user_registration_path,:method => "get" %></button>
+            <button class="btn btn-outline-primary my-5 my-sm-0"  id="btn_sign_up" >Sign up</button>
           </li>
           <li class="nav-item active">
-            <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=button_to "Sign in",new_user_session_path,:method => "get" %></button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="button" id="btn_sign_in" >Sign in</button>
           </li>
         <%end %>
         <li class="nav-item active">
-          <button class="btn btn-outline my-2 my-sm-0" type="button"  ><%=button_to "Funfics",posts_path, :method => "get" %></button>
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="button" id="funfics"  >Funfics</button>
         </li>
 
       </ul>
