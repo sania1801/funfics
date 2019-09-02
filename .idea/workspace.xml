@@ -6,17 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/download__1_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/large_download__1_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/placeholder_download__1_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/thumb_download__1_.jpeg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +281,7 @@
       <workItem from="1567249871473" duration="1851000" />
       <workItem from="1567443952015" duration="257000" />
       <workItem from="1567462362216" duration="65000" />
-      <workItem from="1567462428626" duration="565000" />
+      <workItem from="1567462428626" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="Create new posts edit and remove, add comments.">
       <created>1558638987973</created>
@@ -469,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561413716477</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="First commit, after debug all functions, how a simple user, i can to create/edit/delete posts/chapters, find all information from posts(full-text search), also i can use tagcloud, then, i can to create comments, and more than things.&#10;How admin i can create/edit/delete all information of this site, also do this with users, remove/create/edit admin user, and more than.&#10;How unauthorized user i can sign up with email confirmation, then i can see posts/comments/chapters, use full-text search, and tagcloud">
+      <created>1567463242723</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567463242723</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
