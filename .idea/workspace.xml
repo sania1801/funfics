@@ -2,47 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e24308e4-62f9-45ad-abe9-098f073ce033" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/chapters_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/chapters_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/comments_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/genre.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/genre.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/chapters/_chapter.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chapters/_chapter.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/_posts.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_posts.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/will_paginate.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/will_paginate.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/37/large_photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/37/photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/37/placeholder_photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/37/thumb_photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/39/download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/39/large_download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/39/placeholder_download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/39/thumb_download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/42/large_photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/42/photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/42/placeholder_photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/42/thumb_photo-1476718840318-386693801fbe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/45/comment-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/45/large_comment-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/45/placeholder_comment-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/place/45/thumb_comment-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/1/download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/1/large_download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/1/placeholder_download__2_.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/1/thumb_download__2_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/download__1_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/large_download__1_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/placeholder_download__1_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/user/avatar/10/thumb_download__1_.jpeg" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.bundle/" />
-    <ignored path="$PROJECT_DIR$/components/" />
-    <ignored path="$PROJECT_DIR$/log/" />
-    <ignored path="$PROJECT_DIR$/public/packs/" />
-    <ignored path="$PROJECT_DIR$/public/system/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/cache/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,88 +41,6 @@
   <component name="FavoritesManager">
     <favorites_list name="website" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/wicked_pdf.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/chapters_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/_posts.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="33" column="65" selection-start-line="33" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -159,40 +52,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>@article</find>
-      <find>tur</find>
-      <find>Room</find>
-      <find>article</find>
-      <find>@comment</find>
-      <find>comment</find>
-      <find>kamin</find>
-      <find>&quot;</find>
-      <find>room</find>
-      <find>some</find>
-      <find>genre</find>
-      <find>lol</find>
-      <find>category</find>
-      <find>red</find>
-      <find>tagscloud</find>
-      <find>@post</find>
-      <find>arr</find>
-      <find>Canca</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>@post</replace>
-      <replace>@chapter</replace>
-      <replace>chapter</replace>
-      <replace>'</replace>
-      <replace>Post</replace>
-      <replace>lol</replace>
-      <replace>genre</replace>
-      <replace>tag_cloud</replace>
-      <replace>post</replace>
-      <replace>m</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -202,63 +61,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/views/tag_cloud/_tag_cloud.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/post.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190616192958_create_achievements.rb" />
-        <option value="$PROJECT_DIR$/app/admin/achievements.rb" />
-        <option value="$PROJECT_DIR$/app/models/achievement.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/achievement_controller.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190616210408_remove_user_from_achievement.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190616210550_drop_table.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_profile/_form_profile.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/user_profile/_achievement.html.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/action_cable.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/cable.coffee" />
-        <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
-        <option value="$PROJECT_DIR$/app/channels/post_channel.rb" />
-        <option value="$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/warden_hooks.rb" />
-        <option value="$PROJECT_DIR$/app/models/chapter.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/cable.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/search.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/tag_cloud.scss" />
-        <option value="$PROJECT_DIR$/app/views/search/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/session/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/genres_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/channels/post.js.coffee" />
-        <option value="$PROJECT_DIR$/config/initializers/wicked_pdf.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/pdf.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/pdf.pdf.erb" />
-        <option value="$PROJECT_DIR$/app/admin/chapters.rb" />
-        <option value="$PROJECT_DIR$/app/views/chapters/_chapter.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/tag_cloud.js" />
-        <option value="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/genre.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/chapters_controller.rb" />
-        <option value="$PROJECT_DIR$/app/213.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/initializers/will_paginate.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_posts.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      </list>
-    </option>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -266,56 +68,19 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="975" />
-    <option name="height" value="557" />
-  </component>
+  <component name="ProjectId" id="1PgaFPANStfPVuQrGUAcCFKU93i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="website-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="website-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-master" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="website-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-master" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="website-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-master" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -411,6 +176,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_VERBOSE" VALUE="null" />
       <method v="2" />
     </configuration>
     <configuration name="test: website" type="RakeRunConfigurationType" factoryName="Rake">
@@ -436,6 +202,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_VERBOSE" VALUE="null" />
       <method v="2" />
     </configuration>
     <configuration name="213" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -462,7 +229,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -511,6 +278,21 @@
       <workItem from="1560776687104" duration="27155000" />
       <workItem from="1560945181289" duration="599000" />
       <workItem from="1561145391361" duration="6012000" />
+      <workItem from="1561413251819" duration="1200000" />
+      <workItem from="1561763222545" duration="624000" />
+      <workItem from="1561801887840" duration="1044000" />
+      <workItem from="1562179317642" duration="441000" />
+      <workItem from="1562927437667" duration="428000" />
+      <workItem from="1566298090887" duration="11179000" />
+      <workItem from="1567000203279" duration="668000" />
+      <workItem from="1567025932186" duration="61000" />
+      <workItem from="1567079642436" duration="280000" />
+      <workItem from="1567157062204" duration="334000" />
+      <workItem from="1567166099660" duration="752000" />
+      <workItem from="1567249871473" duration="1851000" />
+      <workItem from="1567443952015" duration="257000" />
+      <workItem from="1567462362216" duration="65000" />
+      <workItem from="1567462428626" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="Create new posts edit and remove, add comments.">
       <created>1558638987973</created>
@@ -680,11 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1560762394416</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="First commit, after debug all functions, how a simple user, i can to create/edit/delete posts/chapters, find all information from posts(full-text search), also i can use tagcloud, then, i can to create comments, and more than things.&#10;How admin i can create/edit/delete all information of this site, also do this with users, remove/create/edit admin user, and more than.&#10;How unauthorized user i can sign up with email confirmation, then i can see posts/comments/chapters, use full-text search, and tagcloud">
+      <created>1561413716477</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1561413716477</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,34 +481,35 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20590582" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4491081" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Favorites" order="9" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32736155" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5027933" side_tool="true" weight="0.41205212" />
-      <window_info anchor="bottom" id="SVN Repositories" order="12" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49720672" visible="true" weight="0.26547232" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.046288908" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new posts edit and remove, add comments." />
@@ -744,244 +531,12 @@
     <MESSAGE value="Add design tag cloud, change design of the site" />
     <MESSAGE value="debug" />
     <MESSAGE value="Debug fulltext-search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debug fulltext-search" />
+    <MESSAGE value="First commit, after debug all functions, how a simple user, i can to create/edit/delete posts/chapters, find all information from posts(full-text search), also i can use tagcloud, then, i can to create comments, and more than things.&#10;How admin i can create/edit/delete all information of this site, also do this with users, remove/create/edit admin user, and more than.&#10;How unauthorized user i can sign up with email confirmation, then i can see posts/comments/chapters, use full-text search, and tagcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit, after debug all functions, how a simple user, i can to create/edit/delete posts/chapters, find all information from posts(full-text search), also i can use tagcloud, then, i can to create comments, and more than things.&#10;How admin i can create/edit/delete all information of this site, also do this with users, remove/create/edit admin user, and more than.&#10;How unauthorized user i can sign up with email confirmation, then i can see posts/comments/chapters, use full-text search, and tagcloud" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/website_master@Development__website.rcov" NAME="Development: website Coverage Results" MODIFIED="1559922754091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="website" />
     <SUITE FILE_PATH="coverage/website@Development__website.rcov" NAME="Development: website Coverage Results" MODIFIED="1559325709858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="website" />
     <SUITE FILE_PATH="coverage/website_master@213.rcov" NAME="213 Coverage Results" MODIFIED="1560856856829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" MODULE_NAME="website" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-922">
-          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.2/bundler/gems/activeadmin-fe6350f70ec5/app/views/active_admin/resource/index.html.arb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/like.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/genre.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/genres_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/213.rb" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/likes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user_posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tag_cloud.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chapters/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chapters/_chapter.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chapters/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chapters/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/user_profile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/user_posts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/user.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/tag_cloud.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/persons.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/posts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/achievement.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="85" column="24" selection-start-line="85" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/action_cable.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/application_controller_renderer.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/content_security_policy.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/warden_hooks.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/wicked_pdf.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_posts.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="33" column="65" selection-start-line="33" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/chapters_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
